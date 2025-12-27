@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Margarine&family=Parkinsans:wght@300..800&family=Playwrite+VN:wght@100..400&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+     
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper bg-[#101828] text-white">
+    <div class="swiper-wrapper  h-min py-8 gap-8">
+      <div class="swiper-slide">
+        <div
+        class="box_child w-full   p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+        <img class="w-full rounded-xl" src="images/askify.png" alt="">
+        <h1 class="text-xl font-semibold my-4">Askify</h1>
+        <p
+            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+            Askify is a full-stack web application offers a seamless user experience for developers to
+            receive instant insights and suggestions for improving their code quality directly within a
+            clean and intuitive interface.</p>
+        <hr>
+        <div class="my-4">
+            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2 ">
+                <i class="ri-nodejs-line"></i> Nodejs</button>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2 ">
+                <i class="ri-reactjs-line"></i> ReactJs</button>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2 "><i
+                    class="ri-tailwind-css-line"></i> Tailwind</button>
+        </div>
+        <hr>
+        <div class="flex justify-between items-center my-4">
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                    href="https://askify-5sci.onrender.com">Live
+                    Demo</a></button>
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                    href="https://github.com/shivendra0712/Askify"><i
+                        class="fa-brands fa-github"></i></a></button>
+        </div>
+    </div>
+      </div>
+      <div class="swiper-slide">
+
+        <div
+        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+        <img class="w-full rounded-xl" src="images/social.png" alt="">
+        <h1 class="text-xl font-semibold my-4">Social Inspiration Platform</h1>
+        <p
+            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+            InspireHub is a back-end platform designed to facilitate the sharing of inspiring content
+            and connect users within a social environment.</p>
+        <hr>
+        <div class="my-4">
+            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2 ">
+                <i class="ri-nodejs-line"></i> Nodejs</button>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2 "><i
+                    class="ri-tailwind-css-line"></i> Tailwind</button>
+        </div>
+        <hr>
+        <div class="flex justify-between items-center my-4">
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                    href="https://social-inspiration-platform.onrender.com/">Live
+                    Demo</a></button>
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                    href="https://github.com/shivendra0712/Social-Inspiration-Platform"><i
+                        class="fa-brands fa-github"></i></a></button>
+        </div>
+    </div>
+      </div>
+      <div class="swiper-slide"> <div
+        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+        <video autoplay loop muted>
+            <source src="videos/project-3.mp4" type="video/mp4">
+        </video>
+        <h1 class="text-xl font-semibold my-4 ">Food Delivery and Ordering Website</h1>
+        <p
+            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+            Developed a responsive front-end for a food delivery and ordering website using HTML, CSS
+            (leveraging Tailwind CSS), and JavaScript. The platform features a multi-section layout
+            including a hero section with a background image and search functionality, a food category
+            showcase
+        </p>
+        <hr>
+        <div class="my-4">
+            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                    class="ri-html5-line"></i> Html5</button>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                    class="ri-tailwind-css-line"></i> Tailwind</button>
+        </div>
+        <hr>
+        <div class="flex justify-between items-center my-4">
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank" href="https://shivendra0712.github.io/food_delivery_and_ordering_website/
+                Filter deployments
+                ">Live
+                    Demo</a></button>
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                    href="https://github.com/shivendra0712/food_delivery_and_ordering_website"><i
+                        class="fa-brands fa-github"></i></a></button>
+        </div>
+    </div></div>
+      <div class="swiper-slide"> <div
+        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+        <video autoplay loop muted>
+            <source src="videos/project-3.mp4" type="video/mp4">
+        </video>
+        <h1 class="text-xl font-semibold my-4 ">Food Delivery and Ordering Website</h1>
+        <p
+            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+            Developed a responsive front-end for a food delivery and ordering website using HTML, CSS
+            (leveraging Tailwind CSS), and JavaScript. The platform features a multi-section layout
+            including a hero section with a background image and search functionality, a food category
+            showcase
+        </p>
+        <hr>
+        <div class="my-4">
+            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                    class="ri-html5-line"></i> Html5</button>
+            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                    class="ri-tailwind-css-line"></i> Tailwind</button>
+        </div>
+        <hr>
+        <div class="flex justify-between items-center my-4">
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank" href="https://shivendra0712.github.io/food_delivery_and_ordering_website/
+                Filter deployments
+                ">Live
+                    Demo</a></button>
+            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                    href="https://github.com/shivendra0712/food_delivery_and_ordering_website"><i
+                        class="fa-brands fa-github"></i></a></button>
+        </div>
+    </div></div>
+      <div class="swiper-slide"> <div
+                        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+                        <video autoplay loop muted>
+                            <source src="videos/project-3.mp4" type="video/mp4">
+                        </video>
+                        <h1 class="text-xl font-semibold my-4 ">Food Delivery and Ordering Website</h1>
+                        <p
+                            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+                            Developed a responsive front-end for a food delivery and ordering website using HTML, CSS
+                            (leveraging Tailwind CSS), and JavaScript. The platform features a multi-section layout
+                            including a hero section with a background image and search functionality, a food category
+                            showcase
+                        </p>
+                        <hr>
+                        <div class="my-4">
+                            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-html5-line"></i> Html5</button>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-tailwind-css-line"></i> Tailwind</button>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between items-center my-4">
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank" href="https://shivendra0712.github.io/food_delivery_and_ordering_website/
+                                Filter deployments
+                                ">Live
+                                    Demo</a></button>
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                                    href="https://github.com/shivendra0712/food_delivery_and_ordering_website"><i
+                                        class="fa-brands fa-github"></i></a></button>
+                        </div>
+                    </div></div>
+      <div class="swiper-slide"> <div
+                        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+                        <video autoplay loop muted>
+                            <source src="videos/project-3.mp4" type="video/mp4">
+                        </video>
+                        <h1 class="text-xl font-semibold my-4 ">Food Delivery and Ordering Website</h1>
+                        <p
+                            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+                            Developed a responsive front-end for a food delivery and ordering website using HTML, CSS
+                            (leveraging Tailwind CSS), and JavaScript. The platform features a multi-section layout
+                            including a hero section with a background image and search functionality, a food category
+                            showcase
+                        </p>
+                        <hr>
+                        <div class="my-4">
+                            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-html5-line"></i> Html5</button>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-tailwind-css-line"></i> Tailwind</button>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between items-center my-4">
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank" href="https://shivendra0712.github.io/food_delivery_and_ordering_website/
+                                Filter deployments
+                                ">Live
+                                    Demo</a></button>
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                                    href="https://github.com/shivendra0712/food_delivery_and_ordering_website"><i
+                                        class="fa-brands fa-github"></i></a></button>
+                        </div>
+                    </div></div>
+      <div class="swiper-slide"> <div
+                        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+                        <video autoplay loop muted>
+                            <source src="videos/project-3.mp4" type="video/mp4">
+                        </video>
+                        <h1 class="text-xl font-semibold my-4 ">Food Delivery and Ordering Website</h1>
+                        <p
+                            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+                            Developed a responsive front-end for a food delivery and ordering website using HTML, CSS
+                            (leveraging Tailwind CSS), and JavaScript. The platform features a multi-section layout
+                            including a hero section with a background image and search functionality, a food category
+                            showcase
+                        </p>
+                        <hr>
+                        <div class="my-4">
+                            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-html5-line"></i> Html5</button>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-tailwind-css-line"></i> Tailwind</button>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between items-center my-4">
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank" href="https://shivendra0712.github.io/food_delivery_and_ordering_website/
+                                Filter deployments
+                                ">Live
+                                    Demo</a></button>
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                                    href="https://github.com/shivendra0712/food_delivery_and_ordering_website"><i
+                                        class="fa-brands fa-github"></i></a></button>
+                        </div>
+                    </div></div>
+      <div class="swiper-slide"> <div
+                        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+                        <video autoplay loop muted>
+                            <source src="videos/project-3.mp4" type="video/mp4">
+                        </video>
+                        <h1 class="text-xl font-semibold my-4 ">Food Delivery and Ordering Website</h1>
+                        <p
+                            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+                            Developed a responsive front-end for a food delivery and ordering website using HTML, CSS
+                            (leveraging Tailwind CSS), and JavaScript. The platform features a multi-section layout
+                            including a hero section with a background image and search functionality, a food category
+                            showcase
+                        </p>
+                        <hr>
+                        <div class="my-4">
+                            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-html5-line"></i> Html5</button>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-tailwind-css-line"></i> Tailwind</button>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between items-center my-4">
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank" href="https://shivendra0712.github.io/food_delivery_and_ordering_website/
+                                Filter deployments
+                                ">Live
+                                    Demo</a></button>
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                                    href="https://github.com/shivendra0712/food_delivery_and_ordering_website"><i
+                                        class="fa-brands fa-github"></i></a></button>
+                        </div>
+                    </div></div>
+      <div class="swiper-slide"> <div
+                        class="shrink-0 box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
+                        <video autoplay loop muted>
+                            <source src="videos/project-3.mp4" type="video/mp4">
+                        </video>
+                        <h1 class="text-xl font-semibold my-4 ">Food Delivery and Ordering Website</h1>
+                        <p
+                            class="hide-scrollbar text-md font-base my-4 max-h-12 overflow-hidden hover:overflow-auto transition-all duration-300">
+                            Developed a responsive front-end for a food delivery and ordering website using HTML, CSS
+                            (leveraging Tailwind CSS), and JavaScript. The platform features a multi-section layout
+                            including a hero section with a background image and search functionality, a food category
+                            showcase
+                        </p>
+                        <hr>
+                        <div class="my-4">
+                            <h1 class="text-lg font-semibold my-2">Tech Stack</h1>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-html5-line"></i> Html5</button>
+                            <button class=" px-2 py-1 bg-green-300 rounded-full text-black text-base my-2"><i
+                                    class="ri-tailwind-css-line"></i> Tailwind</button>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between items-center my-4">
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank" href="https://shivendra0712.github.io/food_delivery_and_ordering_website/
+                                Filter deployments
+                                ">Live
+                                    Demo</a></button>
+                            <button class=" px-4 py-1 bg-green-300 rounded text-black text-lg "><a target="_blank"
+                                    href="https://github.com/shivendra0712/food_delivery_and_ordering_website"><i
+                                        class="fa-brands fa-github"></i></a></button>
+                        </div>
+                    </div></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
